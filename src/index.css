@@ -1,13 +1,149 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,400;1,500;1,700;1,800;1,900&family=Niconne&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,400;1,500;1,700;1,800;1,900&family=Niconne&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Pinyon+Script&display=swap');
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-small{
+  color: #fff;
+  font-size:16px;
+}
+.navbar-small-bg {
+  background-color: #21165E;
+}
+.modalHeading{
+  font-family:'Niconne',cursive;
+  font-size:70px;
+  text-align:center;
+  
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navBrand{
+  font-family:'Niconne',cursive;
+  font-size:16px;
+  color: #fff;
+}
+
+.navBg{
+  background-color: #302AAF;
+}
+.search{
+  position: relative;
+}
+.search1{
+  position:absolute;
+  bottom:10px;
+  right:190px;
+}
+.heroHeader{
+  color:#21165E;
+  font-size:50px;
+  font-family: 'Times New Roman', georgia, serif;
+  padding-top: 150px;
+}
+
+.brandSection{
+  background-color: #EFF1FF;
+}
+.brandFragrance{
+  font-family: 'Times New Roman', georgia, serif;
+  font-weight: 400;
+  color:#21165e;
+  font-size:40px;
+}
+.brandSmall{
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#302aaf;
+  
+}
+.heroCollection{
+  background-image: url('./img/heroHeels4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* padding:100px; */
+  min-height:50vh;
+  background-attachment: fixed;
+  object-fit: contain;
+}
+.cardH{
+  width:18rem;
+  height:20rem;
+  object-fit: contain;
+}
+.carousel{
+  font-family: 'Times New Roman', georgia, serif;
+  font-size:20px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.shopperTester{
+  font-family: 'Times New Roman',georgia,serif;
+  font-size:19px;
+  font-weight: 400;
+  color:#21165e;
+}
+.pink{
+  padding-top:65px;
+}
+.white{
+  padding-top:180px;
+}
+.testimonial{
+  font-size:30px;
+  color:#21165e;
+  font-family: 'Times New Roman', georgia, serif;
+  font-weight: 400;
+  line-height: 2;
+}
+.testimonialBg{
+  background-color: #EFF1FF;
+}
+.hardFragrance{
+  font-family: 'Times New Roman', georgia, serif;
+  color: #21165E;
+  font-size: 19px;
+}
+.joinReg{
+  background-color: #EFF1FF;
+  width:25%
+}
+.btnJoin{
+  background-color: #21165E;
+
+}
+.crHeader{
+  font-family:'Niconne',
+  cursive;
+  font-size:40px;
+}
+.coupon{
+  background-color: #21165E;
+}
+.couponHeader{
+  font-family: 'Times New Roman', georgia, serif;
+  font-size:20px;
+  font-weight: 400;
+}
+.couponList{
+  color:#BFC6FE;
+}
+.couponList:hover{
+  text-decoration: underline;
+}
+
+
+
+@media screen and (max-width:600px) {
+  .search1 {
+    right: 150px;
+  }
+  
 }
