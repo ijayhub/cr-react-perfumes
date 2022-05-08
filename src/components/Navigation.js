@@ -1,6 +1,5 @@
 import React from 'react'
-import { Form, Button, FormControl, Nav, NavDropdown, Container, Navbar } from 'react-bootstrap'
-import search from '../img/search.svg'
+import { Form, Button,  Nav, NavDropdown, Container, Navbar } from 'react-bootstrap'
 import cart from '../img/cart4.svg'
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';

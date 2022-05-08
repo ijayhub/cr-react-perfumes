@@ -63,15 +63,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* padding:100px; */
   min-height:50vh;
   background-attachment: fixed;
-  object-fit: contain;
+
 }
 .cardH{
   width:18rem;
   height:20rem;
-  object-fit: contain;
+
 }
 .carousel{
   font-family: 'Times New Roman', georgia, serif;
