@@ -55,7 +55,7 @@ const CR = () => {
 					</div>
 					<div className='d-flex justify-content-end mb-4'>
 						<a href='#top'>
-							<img src={top} alt={top} />
+						<img src={top} alt={top}/>
 						</a>
 					</div>
 				</div>
