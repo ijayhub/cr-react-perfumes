@@ -4,7 +4,7 @@ const Footer = () => {
 	const link = 'http://github.com/ijayhub'
     return (
 			<div>
-				<footer className='navBg text-white text-center '>
+				<footer className='navBg text-white text-center py-3'>
 					<p className=' p-4 '>
 						Copyright © 2022{' '}
 						<a

@@ -47,9 +47,9 @@ const Brands = () => {
 				<div className='container '>
 					<div className='text-center '>
 						<h1 className='brandFragrance p-4'>Top Fragrance Brand </h1>
-						<a href='' className='brandSmall'>
+						<div className='brandSmall'>
 							View All Brand
-						</a>
+						</div>
 						<div className='row'>
 							{brands.map((brand) => (
 								<div className='col-md-4 mb-3' key={brand.id}>

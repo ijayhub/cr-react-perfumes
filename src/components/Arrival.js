@@ -10,7 +10,7 @@ import lipP from '../img/lipstickP.jpg'
 import rue from '../img/rue.jpg';
 import tributeP from '../img/tributeP.jpg';
 import supremacy from '../img/supremacy.jpg';
-import souvenir from '../img/souvenir.jpg';
+
 import ruePride from '../img/ruePride.jpg'
 import ruePent from '../img/ruePent.jpg'
 import rueV from '../img/rueVersaillles.jpg';
@@ -27,11 +27,11 @@ const Arrival = () => {
 				<div className='container'>
 					<div className='arrival text-center pt-5'>
 						<h4 className='brandFragrance'>New Arrival</h4>
-						<p>
-							<a href='#' className='brandSmall'>
+						<div className='brandSmall '>
+							
 								See all
-							</a>
-						</p>
+							
+						</div>
 					</div>
 					<div className='arrivalCarousel'>
 						<Carousel>

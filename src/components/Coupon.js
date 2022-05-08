@@ -10,58 +10,31 @@ const Coupon = () => {
 						<div className='col-md-3'>
 							<h6 className='mt-5 text-white  couponHeader'>Shop</h6>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Best Sellers
-								</a>
+								<div className='couponList '> Best Sellers</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className=' couponList text-decoration-none '>
-									{' '}
-									New Arrival
-								</a>
+								<div className=' couponList '> New Arrival</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Celebrity Scents
-								</a>
+								<div className='couponList'> Celebrity Scents</div>
+							</p>
+							<p className='couponList text-decoration-none'>
+								<div className='couponList'> Hard to Find</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Hard to Find
-								</a>
+								<div className='couponList '> Testers</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Testers
-								</a>
+								<div className='couponList '> Travel Size Mini's</div>
 							</p>
-							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Travel Size Mini's
-								</a>
+							<p className='couponList text-decoration-none'>
+								<div className='couponList '> Perfume Samples</div>
 							</p>
-							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Perfume Samples
-								</a>
+							<p className='couponList text-decoration-none'>
+								<div className='couponList  '> Cologne Samples</div>
 							</p>
-							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Cologne Samples
-								</a>
-							</p>
-							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Valentine's Day Gift
-								</a>
+							<p className='couponList text-decoration-none'>
+								<div className='couponList '> Valentine's Day Gift</div>
 							</p>
 						</div>
 						<div className='col-md-3'>
@@ -69,57 +42,51 @@ const Coupon = () => {
 								More Ways To Shop
 							</h6>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Deodorant
-								</a>
+								<div className='couponList  '> Deodorant</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className=' couponList text-decoration-none '>
-									{' '}
-									After Shave
-								</a>
+								<div className=' couponList '> After Shave</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Shower Gel
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									After Shave Balm
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Body Cream
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Pure perfume
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Body Lotion
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none mb-5 '>
+								<div className='couponList text-decoration-none mb-5 '>
 									{' '}
 									Gift Sets
-								</a>
+								</div>
 							</p>
 							<div>
-								<p className='text-white couponHeader'>
+								<p className='text-white couponHeader text-decoration-none'>
 									<span>
-										<img src={star} alt="" />
+										<img src={star} alt='' />
 									</span>
 									TrustPilot
 								</p>
@@ -128,91 +95,78 @@ const Coupon = () => {
 						<div className='col-md-3'>
 							<h6 className='mt-5 text-white  couponHeader'>Help</h6>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Order Status
-								</a>
-							</p>
-							<p className='couponList'>
-								<a href='#' className=' couponList text-decoration-none '>
+								</div>
+								<p className='couponList'></p>
+								<div className=' couponList text-decoration-none '>
 									{' '}
 									Shipping Info
-								</a>
-							</p>
-							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								</div>
+								<p className='couponList'></p>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Return Info
-								</a>
-							</p>
-							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
+								</div>
+								<p className='couponList'></p>{' '}
+								<div className='couponList text-decoration-none '>
 									Contact Info
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									FAQ'S
-								</a>
+								<div className='couponList text-decoration-none '> FAQ'S</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Earn Rewards
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Join Coupon List
-								</a>
+								</div>
 							</p>
 						</div>
 						<div className='col-md-3'>
 							<h6 className='mt-5 text-white  couponHeader'>More Help</h6>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Affiliates
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className=' couponList text-decoration-none '>
+								<div className=' couponList text-decoration-none '>
 									{' '}
 									Wholesale information
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Customer Testimonials
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Safe Shopping Guarantee
-								</a>
+								</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Blog
-								</a>
+								<div className='couponList text-decoration-none '> Blog</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
-									{' '}
-									Privacy
-								</a>
+								<div className='couponList text-decoration-none '> Privacy</div>
 							</p>
 							<p className='couponList'>
-								<a href='#' className='couponList text-decoration-none '>
+								<div className='couponList text-decoration-none '>
 									{' '}
 									Site Map
-								</a>
+								</div>
 							</p>
 						</div>
 					</div>

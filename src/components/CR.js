@@ -1,10 +1,10 @@
 import React from 'react'
-import arrow from '../img/arrow-right.svg'
+import top from '../img/top.png'
 
 const CR = () => {
     return (
 			<div>
-				<div className='container mt-5'>
+				<div className='container mt-5 slide-in-left'>
 					<div className='text-center'>
 						<h3 className='brandFragrance '>
 							The <span className='crHeader'>CR</span> Factor
@@ -23,7 +23,7 @@ const CR = () => {
 								</p>
 							</div>
 						</div>
-						<div className='col-md-3' >
+						<div className='col-md-3'>
 							<h6>Trusted since 2001</h6>
 							<p>
 								100% authentic fragrances. You won't find knockoffs or
@@ -50,11 +50,13 @@ const CR = () => {
 						<p>
 							At Cr fragrance, our mission is to provide you with the largest
 							selection of perfumes and colognes at the lowest prices.{' '}
-							<a href='#'>Read More</a>{' '}
-							<span>
-								<img src={arrow} alt='' />
-							</span>
+							
 						</p>
+					</div>
+					<div className='d-flex justify-content-end mb-4'>
+						<a href='#top'>
+							<img src={top} alt={top} />
+						</a>
 					</div>
 				</div>
 			</div>

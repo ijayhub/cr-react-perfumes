@@ -13,10 +13,10 @@ const Navigation = () => {
     return (
         <div>
             <div className={'navbar-small-bg p-3'}>
-				<a href="#" className='d-flex justify-content-center navbar-small text-center text-decoration-none'
+				<div className='d-flex justify-content-center navbar-small text-center text-decoration-underline'
 					onClick={() => setAppear(true)}>
 					Extra 15% off click here
-				</a>
+				</div>
 			<div>
 					{
 						appear ? <Modal show={appear} onHide={handleClose} className=''>
@@ -92,21 +92,7 @@ const Navigation = () => {
                                     <img src={cart} alt='cart' />
                                 </Nav.Link>
                             </Nav>
-                            <Form className='d-flex'>
-                                <FormControl
-                                    type='search'
-                                    className='me-2'
-                                    aria-label='Search'
-                                />
-                                <div className='search'>
-                                    <span>
-                                        <img src={search} alt='search' className='search1' />
-                                    </span>
-                                </div>
-                                <Button variant='outline-dark' className='text-white'>
-                                    Search
-                                </Button>
-                            </Form>
+                            
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

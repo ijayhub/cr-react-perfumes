@@ -18,9 +18,9 @@ const BestSellers = () => {
 			<div className='container'>
 				<div className=' text-center  '>
 					<h2 className='brandFragrance p-4'>Best Sellers</h2>
-					<a href='' className='brandSmall'>
+					<div className='brandSmall'>
 						See All
-					</a>
+					</div>
 				</div>
 				<div>
 					<Carousel className='px-5'>

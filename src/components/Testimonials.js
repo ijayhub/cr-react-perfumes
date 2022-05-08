@@ -48,9 +48,9 @@ const Testimonials = () => {
 							<div className='d-flex pt-5'>
 								<img src={perf} alt='' className='img-fluid w-50 h-50 mb-3' />
 								<p className='p-5'>
-									<a href='#' className='hardFragrance' rel='noopener noreferrer'>
+									<div className='hardFragrance'>
 										Hard to find fragrance
-									</a>
+									</div>
 								</p>
 							</div>
 							<div className='d-flex'>
@@ -60,9 +60,9 @@ const Testimonials = () => {
 									className='img-fluid w-50 h-50 '
 								/>
 								<p className='p-4'>
-									<a href='#' className='hardFragrance '>
+									<div className='hardFragrance '>
 										Celebrity Scents
-									</a>
+									</div>
 								</p>
 							</div>
 						</div>

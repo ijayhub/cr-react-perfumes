@@ -21,10 +21,10 @@ const InputLogo = () => {
 								<input
 									type='text'
 									placeholder='Enter email address'
-									className=' p-3 mb-3 w-50'
+									className=' p-2 mb-3 w-50'
 								/>
 								<span>
-									<button className='p-3 bg-warning border-0 text-white'>
+									<button className='p-2 bg-warning border-0 text-white'>
 										Sign Up
 									</button>
 								</span>
