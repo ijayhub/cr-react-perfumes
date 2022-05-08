@@ -2,7 +2,7 @@
 ## OVERVIEW 
 This web app was built using react framework template and with the aid of react-bootstrap. this website shows the users a list of perfumes they can buy by category.
 
-LIVE LINK : 
+LIVE LINK : cr-react-perfumes.vercel.app
 
 GITHUB CODES: https://github.com/ijayhub/cr-react-perfumes
 
