@@ -1,3 +1,4 @@
+
 # CR FRAGRANCE WEB APP
 ## OVERVIEW 
 This web app was built using react framework template and with the aid of react-bootstrap. this website shows the users a list of perfumes they can buy by category.
@@ -36,13 +37,4 @@ This create the react app locally
 > npm install react-bootstrap
 > npm install react-router-dom@6 
 ```
-#### Contributors are highly welcomed:-
-
-Way to contribute
->clone or fork to local computer
-
- ```
- ![This an image](https://123goodmorningquotes.com/wp-content/uploads/2020/05/Thank-You-GIF-1.gif)
- 
- **Reference to https://www.fragrancex.com/**
 
