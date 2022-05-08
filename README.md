@@ -1,5 +1,5 @@
 
-# CR FRAGRANCE WEB APP
+# CR FRAGRANCE WEBSITE
 ## OVERVIEW 
 This website was built using react framework template and with the aid of react-bootstrap. this website shows the users a list of perfumes they can buy by category.
 
