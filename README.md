@@ -4,7 +4,7 @@ This web app was built using react framework template and with the aid of react-
 
 LIVE LINK : 
 
-GITHUB CODES: 
+GITHUB CODES: https://github.com/ijayhub/cr-react-perfumes
 
 **Features**
 
